@@ -6,7 +6,7 @@ import 'env.dart';
 void main() => runApp(const App());
 
 class App extends StatelessWidget {
-  static const String _pkg = "sparkle_party";
+  static const String _pkg = "flutter_sparkles";
 
   const App({super.key});
   static String? get pkg => Env.getPackage(_pkg);
